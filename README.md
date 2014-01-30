@@ -24,8 +24,8 @@ require 'watir-get-image-content'
 browser = Watir::Browser.new
 browser.goto 'http://for_example.com/page_with_images'
 
-browser.image(:index, 1).to_png_base64         # get base64-encoded png of image selected by index
-browser.image(:alt, 'Alt text').to_png_base64  # get base64-encoded png of image selected by alt text
+browser.image(:index, 1).to_png_base64        
+browser.image(:alt, 'Alt text').to_png_base64
 ```
 
 ## Contributing

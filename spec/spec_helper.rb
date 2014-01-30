@@ -1,4 +1,4 @@
-require 'rmagick'
+require 'RMagick'
 require 'rspec/expectations'
 require 'watir-get-image-content'
 

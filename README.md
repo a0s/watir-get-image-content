@@ -1,6 +1,4 @@
-# Watir::Get::Image::Content
-
-TODO: Write a gem description
+Return content of image as base64-encoded png
 
 ## Installation
 
@@ -19,8 +17,13 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
-browser.image(:index, 1).to_png_base64         # get copy of image selected by index
-browser.image(:alt, 'Alt text').to_png_base64  # get copy of image selected by alt text
+require 'watir-webdriver'
+require 'watir-get-image-content'
+browser = Watir::Browser.new
+browser.goto 'http://for_example.com/page_with_images'
+
+browser.image(:index, 1).to_png_base64         # get base64-encoded png of image selected by index
+browser.image(:alt, 'Alt text').to_png_base64  # get base64-encoded png of image selected by alt text
 ```
 
 ## Contributing

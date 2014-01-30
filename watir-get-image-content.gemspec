@@ -7,8 +7,8 @@ Gem::Specification.new do |spec|
   spec.version       = "0.0.1"
   spec.authors       = ["orangeudav"]
   spec.email         = ["orangeudav@gmail.com"]
-  spec.description   = %q{Get image content}
-  spec.summary       = %q{Get content of selected image w/o external (re)download}
+  spec.description   = %q{Get Watir::Image's content copy without external download}
+  spec.summary       = %q{Get Watir::Image's content copy without external download}
   spec.homepage      = "https://github.com/orangeudav/watir-get-image-content"
   spec.license       = "MIT"
 

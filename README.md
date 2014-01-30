@@ -1,5 +1,7 @@
 Return content of image as base64-encoded png
 
+[![Build Status](https://travis-ci.org/orangeudav/watir-get-image-content.png?branch=master)](https://travis-ci.org/orangeudav/watir-get-image-content)
+
 ## Installation
 
 Add this line to your application's Gemfile:

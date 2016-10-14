@@ -26,6 +26,11 @@ browser.goto 'http://for_example.com/page_with_images'
 
 browser.image(:index, 1).to_png_base64        
 browser.image(:alt, 'Alt text').to_png_base64
+browser.image(:index, 1).to_jpg_base64
+browser.image(:alt, 'Alt text').to_jpg_base64
+
+File.write('png.png', browser.image(:index, 1).to_png)
+File.write('jpg.jpg', browser.image(:index, 1).to_jpg)
 ```
 
 ## Contributing

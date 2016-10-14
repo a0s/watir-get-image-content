@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "watir-get-image-content"
-  spec.version       = "0.0.2"
+  spec.version       = "0.0.3"
   spec.authors       = ["orangeudav"]
   spec.email         = ["orangeudav@gmail.com"]
   spec.description   = %q{Get Watir::Image's content copy without external download}
@@ -22,5 +22,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
   spec.add_development_dependency "rspec"
-  spec.add_development_dependency "rmagick", '2.13.2'
+  spec.add_development_dependency "rmagick"
 end

@@ -19,7 +19,7 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
-require 'watir-webdriver'
+require 'watir'
 require 'watir-get-image-content'
 browser = Watir::Browser.new
 browser.goto 'http://for_example.com/page_with_images'

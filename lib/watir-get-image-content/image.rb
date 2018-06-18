@@ -13,7 +13,7 @@ module Watir
               ctx.drawImage(arguments[0], 0, 0);
               var dataURL = canvas.toDataURL("image/#{target}");
               return dataURL.replace(/^data:image\\/(png|jpg|gif);base64,/, "");}
-      driver.execute_script js, @element, natural_width, natural_height
+      driver.execute_script js, @element, naturalwidth, naturalheight
     end
 
     def to_png_base64

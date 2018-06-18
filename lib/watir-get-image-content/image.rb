@@ -7,13 +7,13 @@ module Watir
     def to_x_base64(target)
       assert_exists
       js = %Q{var canvas = document.createElement("canvas");
-              canvas.width = arguments[0].width;
-              canvas.height = arguments[0].height;
+              canvas.width = arguments[1];
+              canvas.height = arguments[2];
               var ctx = canvas.getContext("2d");
               ctx.drawImage(arguments[0], 0, 0);
               var dataURL = canvas.toDataURL("image/#{target}");
               return dataURL.replace(/^data:image\\/(png|jpg|gif);base64,/, "");}
-      driver.execute_script js, @element
+      driver.execute_script js, @element, naturalwidth, naturalheight
     end
 
     def to_png_base64

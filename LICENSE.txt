@@ -1,4 +1,4 @@
-Copyright (c) 2014 orangeudav
+Copyright (c) 2014-2020 Anton Osenenko
 
 MIT License
 

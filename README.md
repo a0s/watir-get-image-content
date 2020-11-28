@@ -1,6 +1,6 @@
 Return content of image as base64-encoded png
 
-[![Build Status](https://travis-ci.org/orangeudav/watir-get-image-content.png?branch=master)](https://travis-ci.org/orangeudav/watir-get-image-content)
+[![Build Status](https://travis-ci.org/a0s/watir-get-image-content.png?branch=master)](https://travis-ci.org/a0s/watir-get-image-content)
 
 ## Installation
 

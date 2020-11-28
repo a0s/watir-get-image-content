@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Anton Osenenko"]
   spec.description   = %q{Get Watir::Image's content copy without external download}
   spec.summary       = %q{Get Watir::Image's content copy without external download}
-  spec.homepage      = "https://github.com/orangeudav/watir-get-image-content"
+  spec.homepage      = "https://github.com/a0s/watir-get-image-content"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
